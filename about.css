@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+* {
+  padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: green;
+  }
+  
+ 
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+.footer li{
+    list-style: none;
+    text-decoration: none;
+}  
+
+/* About section */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    margin-bottom: 20px;
+  }
+  
+  .about-list {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .about-list li:before {
+    content: "✓";
+    margin-right: 10px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (min-width: 768px) {
+    .about-section {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .about-image {
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+  
+    .about-content {
+      flex-basis: 50%;
+    }
+  }
+ 
+  .hero-section {
+    display: flex;
+    padding: 50px;
+  
+  }
+
+  .info-card {
+    text-align: justify;
+    margin-right: 20px;
+  }
+
+  .about {
+    background-color: #333;
+    text-align: center;
+    color: white;
+    padding: 20px;
+   
+  }
+  
+  .about-column {
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .links {
+    padding-top: 20px;
+    height: 30vh;
+    
+  }
+  
+  .links ul {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .links  li {
+    margin-left: 10px;
+    list-style: none;
+  }
+  .links a {
+    color: white;
+    text-decoration: none;
+  }
+  
